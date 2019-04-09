@@ -14,6 +14,7 @@ const int led3 = 9;          // donar nom al pin 9 de l’Arduino
 const int led4 = 10;         // donar nom al pin 10 de l’Arduino
 const int led5 = 11;         // donar nom al pin 11 de l’Arduino
 const int led6 = 12;         // donar nom al pin 12 de l’Arduino
+unsigned long a;
 
 //********** Setup ****************************************************************
 void setup()
@@ -24,6 +25,7 @@ void setup()
   pinMode(led4, OUTPUT);     // definir el pin 10 com una sortida
   pinMode(led5, OUTPUT);     // definir el pin 11 com una sortida
   pinMode(led6, OUTPUT);     // definir el pin 12 com una sortida
+  a = 500;
 }
 
 //********** Loop *****************************************************************
@@ -36,7 +38,7 @@ void loop()
   digitalWrite(led5, LOW);    
   digitalWrite(led6, LOW);   
   
-  delay(500);                  
+  delay(a);                  
   
   digitalWrite(led1, HIGH);     
   digitalWrite(led2, LOW);     
@@ -45,7 +47,7 @@ void loop()
   digitalWrite(led5, LOW);    
   digitalWrite(led6, HIGH);    
   
-  delay(500);                  
+  delay(a);                  
  
   digitalWrite(led1, HIGH);     
   digitalWrite(led2, LOW);     
@@ -54,7 +56,7 @@ void loop()
   digitalWrite(led5, LOW);     
   digitalWrite(led6, HIGH);     
 
-  delay(500);
+  delay(a);
 
   digitalWrite(led1, HIGH);     
   digitalWrite(led2, LOW);     
@@ -63,7 +65,7 @@ void loop()
   digitalWrite(led5, LOW);    
   digitalWrite(led6, HIGH);    
 
-  delay(500);
+  delay(a);
 
   digitalWrite(led1, HIGH);     
   digitalWrite(led2, LOW);     
@@ -72,7 +74,7 @@ void loop()
   digitalWrite(led5, LOW);    
   digitalWrite(led6, HIGH);    
 
-  delay(500);
+  delay(a);
 
   digitalWrite(led1, HIGH);     
   digitalWrite(led2, LOW);     
@@ -81,7 +83,7 @@ void loop()
   digitalWrite(led5, HIGH);    
   digitalWrite(led6, LOW);    
 
-  delay(500);
+  delay(a);
 
   digitalWrite(led1, HIGH);     
   digitalWrite(led2, LOW);     
@@ -90,7 +92,7 @@ void loop()
   digitalWrite(led5, LOW);    
   digitalWrite(led6, LOW);    
 
-  delay(500);
+  delay(a);
 
   digitalWrite(led1, LOW);     
   digitalWrite(led2, LOW);     
@@ -99,7 +101,7 @@ void loop()
   digitalWrite(led5, LOW);    
   digitalWrite(led6, LOW);    
 
-  delay(500);
+  delay(a);
 
   digitalWrite(led1, LOW);     
   digitalWrite(led2, LOW);     
@@ -108,7 +110,7 @@ void loop()
   digitalWrite(led5, LOW);    
   digitalWrite(led6, LOW);    
 
-  delay(500);
+  delay(a);
 
   digitalWrite(led1, LOW);     
   digitalWrite(led2, LOW);     
@@ -117,7 +119,7 @@ void loop()
   digitalWrite(led5, LOW);    
   digitalWrite(led6, LOW);    
 
-  delay(500);
+  delay(a);
 
   digitalWrite(led1, LOW);     
   digitalWrite(led2, LOW);     
@@ -126,7 +128,7 @@ void loop()
   digitalWrite(led5, LOW);    
   digitalWrite(led6, LOW);    
 
-  delay(500);
+  delay(a);
 
   digitalWrite(led1, LOW);     
   digitalWrite(led2, HIGH);     
@@ -135,7 +137,7 @@ void loop()
   digitalWrite(led5, LOW);    
   digitalWrite(led6, LOW);    
 
-  delay(500);
+  delay(a);
 
   digitalWrite(led1, HIGH);     
   digitalWrite(led2, LOW);     
@@ -144,5 +146,5 @@ void loop()
   digitalWrite(led5, LOW);    
   digitalWrite(led6, LOW);    
 
-  delay(500);
+  delay(a);
 }
